@@ -20,9 +20,12 @@ button{
     margin-right: 20px; */
     margin: 40px 20px 0;
     font-size: 0;
+    font-family: sans-serif;
+    height: 45px;
 }
 li{
     display: inline;
+    margin: 0 25px;
 }
 .header >* {
     display: inline-block;
@@ -42,7 +45,6 @@ li{
     text-align: center;
     color: #025157;
     font-weight: 500;
-
 }
 .actions{
     width: 15%;
@@ -50,6 +52,23 @@ li{
     font-size: 14px;
     font-weight: 600;
 }
+
+.actions > * {
+    margin: 0 10px 0 0; 
+}
+
+.actions a{
+    color: #67b54b;
+}
+
+.actions button{
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+
 .main{
     margin-top: 140px;
     text-align: center;
