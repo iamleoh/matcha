@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbf7;
+    background-color: #98bddb;
 }
 h1{
     color: #025157;
@@ -72,5 +72,6 @@ li{
 .main{
     margin-top: 140px;
     text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
 
 }
