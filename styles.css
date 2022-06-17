@@ -1,5 +1,5 @@
 body{
-    background-color: #fffbf7;
+    background-color: #ffffff;
 }
 h1{
     color: #025157;
@@ -10,6 +10,7 @@ p{
     font-family: Verdana;
     font-size: 20px;
 }
+
 button{
     color: #fff;
     background-color: #025157;
@@ -21,13 +22,12 @@ button{
     margin: 40px 20px 0;
     font-size: 0;
     font-family: sans-serif;
-    height: 45px;
 }
 li{
     display: inline;
     margin: 0 25px;
 }
-.header >* {
+.header > * {
     display: inline-block;
     font-size: 16px;
     line-height: 45px;
@@ -72,5 +72,43 @@ li{
 .main{
     margin-top: 140px;
     text-align: center;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+.publish h3{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    line-height: 48px;
+    color:#025157;
+}
+.publish > p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
 
+}
+.publish > form{
+    display:flex;
+    flex-wrap: wrap;
+}
+.publish > form p{
+    color: #025157;
+    margin-right: 18px;
+}
+.publish {
+    margin-left: 30px;
+}
+.explanatory-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.explanatory-video > img{
+    width: 120px;
+    margin-top: 10px;
 }
