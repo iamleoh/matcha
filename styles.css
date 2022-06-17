@@ -1,9 +1,10 @@
 body{
-    background-color: #ffffff;
+    background-color: #fffbf7;
 }
 h1{
     color: #025157;
     text-align: center;
+    font-family: 'Alegreya', serif;
 }
 p{
     color: #8b8b8bcc;
@@ -33,6 +34,13 @@ li{
     line-height: 45px;
     height: 100%;
     vertical-align: middle;
+}
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbf7;
 }
 .logo{
     width: 15%;
@@ -70,7 +78,7 @@ li{
 }
 
 .main{
-    margin-top: 140px;
+    margin-top: 285px;
     text-align: center;
 }
 .promo{
